@@ -23,13 +23,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true # Asegura el uso de íconos de Material Design
 
-flutter_icons:
-  ios: true
-  android: true
-  image_path: assets/iconoapp.jpg
-
   assets:
-    - assets/iconoapp.jpg
     - assets/oneplus12.jpg
     - assets/iphone15promax.jpg
     - assets/xiaomi13pro.jpg
