@@ -1,0 +1,87 @@
+name: comtel
+description: "Un proyecto de Flutter para comparar y seleccionar teléfonos."
+publish_to: 'none' # Para uso privado; remuévelo si planeas publicar en pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0 # Gestión de estado simplificada con Provider
+  cupertino_icons: ^1.0.8 # Iconos estilo iOS
+  #url_launcher: ^6.1.7
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0 # Buenas prácticas y estándares para Flutter
+
+flutter:
+  uses-material-design: true # Asegura el uso de íconos de Material Design
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path: assets/iconoapp.jpg
+
+  assets:
+    - assets/iconoapp.jpg
+    - assets/oneplus12.jpg
+    - assets/iphone15promax.jpg
+    - assets/xiaomi13pro.jpg
+    - assets/samsungs23ultra.jpg
+    - assets/samsungS22ultra.jpg
+    - assets/samsungZFold4.jpg
+    - assets/samsungA53.jpg
+    - assets/samsungS23ultra.jpg
+    - assets/samsungA54.jpg
+    - assets/samsungS24ultra.jpg
+    - assets/samsungZFold5.jpg
+    - assets/galaxyZflip4.jpg
+    - assets/galaxyS23fe.jpg
+    - assets/galaxyZflip5.jpg
+    - assets/galaxyZflip6.jpg
+    - assets/galaxyZfold6.jpg
+    - assets/oneplus10pro.jpg
+    - assets/oneplusnord2t.jpg
+    - assets/oneplus10t.jpg
+    - assets/oneplus11.jpg
+    - assets/oneplusnordce3.jpg
+    - assets/oneplusopen.jpg
+    - assets/oneplus12.jpg
+    - assets/googlePixel6a.jpg
+    - assets/googlePixel7.jpg
+    - assets/googlePixel7Pro.jpg
+    - assets/googlePixel7a.jpg
+    - assets/googlePixelFold.jpg
+    - assets/googlePixel8.jpg
+    - assets/googlePixel8Pro.jpg
+    - assets/googlePixel9.jpg
+    - assets/googlePixel9Pro.jpg
+    - assets/googlePixel9ProFold.jpg
+    - assets/iphonese2022.jpg
+    - assets/iphone14.jpg
+    - assets/iphone14plus.jpg
+    - assets/iphone14pro.jpg
+    - assets/iphone14promax.jpg
+    - assets/iphone15.jpg
+    - assets/iphone15plus.jpg
+    - assets/iphone15pro.jpg
+    - assets/iphone15promax.jpg
+    - assets/iphone16.jpg
+    - assets/iphone16pro.jpg
+    - assets/iphone16promax.jpg
+    - assets/xiaomi14.jpg
+    - assets/xiaomi13TPro.jpg
+    - assets/xiaomi13.jpg
+    - assets/redminote13proplus.jpg
+    - assets/pocof6pro.jpg
+    - assets/redminote12pro5g.jpg
+    - assets/xiaomi12pro.jpg
+    - assets/pocox5pro5g.jpg
+    - assets/redminote11proplus5g.jpg
+
