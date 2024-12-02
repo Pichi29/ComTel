@@ -1,16 +1,47 @@
-# comtel
+# Comtel
 
-A new Flutter project.
+Instrucciones para ejecutar **ComTel**.
 
-## Getting Started
+## Instrucciones para ejecutar el proyecto
 
-This project is a starting point for a Flutter application.
+Sigue estos pasos para ejecutar este proyecto en tu máquina local:
 
-A few resources to get you started if this is your first Flutter project:
+## 1. Clona este repositorio en la terminar de vs code:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+git clone https://github.com/Pichi29/ComTel.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 2. Instalar las dependencias
+Navegar a la carpeta del proyecto:
+
+cd comtel
+
+Y se instalan con el siguiente comando:
+
+flutter pub get
+
+3. ## Ejecutar el proyecto usando:
+
+flutter run
+
+Y dependiendo si usas windows, entonces puede que el mismo windows lo pueda ejecutar, si no tambien se puede usar android studio, en caso de tener una Mac, usando el simulador Xcode y poner el siguiente comando:
+
+open -a Simulator
+
+y conectar el iphone a la Mac y lo ejecutas con el mismo comando que se uso anteriormente:
+flutter run. 
+
+Y si se quiere ejecutar en android se puede simplemente conectar el telefono a la computadora pero antes, tenemos que activar en las opciones del desarrollador la depuracion por USB para que este pueda ejecutar la app y una vez hecho eso, en la terminar vemos que dispositivos podemos correr con el siguiente comando:
+
+flutter devices 
+
+y se tendra que visualizar nuestro telefono y una vez hecho eso, procedemos a ejecutar 
+
+flutter run 
+
+y seleccionamos nuestro telefono y listo, estara listo para ejecutarlo desde ahi.
+
+Otra opcion es ejecutar el comando 
+
+flutter build apk --release
+
+y se genera el apk que esta en la carpeta build/app/outputs/flutter-apk/app-release.apk y con el apk se puede descargar y usar en el telefono android.
