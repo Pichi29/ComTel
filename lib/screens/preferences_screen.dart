@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'results_screen.dart'; // Asegúrate de que esta importación sea válida.
+import 'results_screen.dart'; //importamos results_screen.dart
 
 class PreferencesScreen extends StatefulWidget {
   const PreferencesScreen({super.key});
