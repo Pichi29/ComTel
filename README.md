@@ -2,22 +2,23 @@
 
 Instrucciones para ejecutar **ComTel**.
 
-## Instrucciones para ejecutar el proyecto
+## Instrucciones para ejecutar el proyecto en VS Code:
 
-Sigue estos pasos para ejecutar este proyecto en tu máquina local:
-
-## 1. Clona este repositorio en la terminar de vs code:
+## 1. Clona este repositorio en la terminal de vs code:
 
 git clone https://github.com/Pichi29/ComTel.git
 
-## 2. Instalar las dependencias
+## 2. Instalar las dependencias, flutter y dart
+
+Luego hay que asegurarnos de tener instalado flutter y dart en las extensiones de VS Code
+
 Navegar a la carpeta del proyecto:
 
 cd comtel
 
 Y se instalan con el siguiente comando:
 
-flutter pub get
+flutter pub get 
 
 3. ## Ejecutar el proyecto usando:
 
